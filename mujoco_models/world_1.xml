@@ -1,0 +1,15 @@
+<mujoco>
+    <include file="objects.xml"/>
+    <option>
+        <flag gravity="disable"/>
+    </option>
+    <worldbody>
+        <light name="top" pos="0 0 1"/>
+        <geom size="2 2 2" type="plane" rgba="0 0 0 1" pos="0 0 -1"/>
+        <body pos="0 0 0" euler="0 0 0" name="target">
+            <freejoint/>
+            <geom type="mesh" mesh="cocacola_can" material="material_cans"/>
+        </body>
+        <camera name="cam_1" mode="fixed" pos="0 0 0.2"/>
+    </worldbody>
+</mujoco>

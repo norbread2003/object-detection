@@ -1,0 +1,17 @@
+<mujoco>
+    <visual>
+        <global offwidth="2000" offheight="2000"/>
+    </visual>
+    <asset>
+        <texture name="cans" file="../meshes/coca_cola_fanta_sprite_cans_white_background_42420564.png" type="2d"/>
+        <material name="material_cans" texture="cans"/>
+
+        <mesh file="../meshes/cocacola_can.msh"/>
+        <mesh file="../meshes/orange_can.msh"/>
+        <mesh file="../meshes/sprite_can.msh"/>
+
+        <texture name="cardboard" file="../meshes/cardboard.png" type="cube"/>
+        <material name="material_cardboard" texture="cardboard"/>
+
+    </asset>
+</mujoco>
