@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import ImageDraw, Image, ImageFont
 
-im = Image.open("img_lights.png")
+im = Image.open("../img_lights.png")
 im_size = 1000
 im = im.crop((0, 0, im_size, im_size))
 font_ratio = 0.05
