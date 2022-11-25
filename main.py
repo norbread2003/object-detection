@@ -1,3 +1,41 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# ********************************************************************************
+# © 2022 Yunlin Tan. All Rights Reserved.
+# ********************************************************************************
+
+"""
+@package main
+
+@brief Learning object detection segmentation with a DRL-based feature matching agent.
+
+@author Yunlin Tan
+
+@date 12/30/2021
+
+**Related Page**: https://github.com/norbread2003/object-detection
+
+Arguments
+---------
+    - None
+
+Example Usage
+-------------
+    None
+
+Update Record
+-------------
+0.1.0        12/30/2021   Yunlin Tan([None])            Object detection segmentation with a DRL-based matching agent.
+
+Depends On
+----------
+**Python Dependencies:**
+    - matplotlib
+    - numpy
+
+**Other Dependencies:**
+    - None
+"""
 import time
 
 import matplotlib
